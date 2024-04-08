@@ -1,0 +1,31 @@
+{
+    "name": "silvercommerce/shipstation-customstore",
+    "description": "Import orders into ShipStation using custom store integration",
+    "type": "silverstripe-vendormodule",
+    "homepage": "http://github.com/silvercommerce/shipstation-customstore",
+    "keywords": [
+        "silverstripe",
+        "commerce",
+        "ecommerce",
+        "orders",
+        "ShipStation"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Dean Forest Tech",
+            "email": "info@dean-forest-tech.uk"
+        }
+    ],
+    "support": {
+        "issues": "http://github.com/silvercommerce/shipstation-customstore/issues"
+    },
+    "require": {
+        "silvercommerce/orders-admin": "^1"
+    },
+    "autoload": {
+        "psr-4": {
+            "SilverCommerce\\ShipStationCS\\": "src/"
+        }
+    }
+}

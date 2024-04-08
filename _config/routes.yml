@@ -1,0 +1,7 @@
+---
+Name: shipstationcsroutes
+After: "*"
+---
+SilverStripe\Control\Director:
+  rules:
+    'shipstationcs': 'SilverCommerce\ShipStationCS\EndpointController'
