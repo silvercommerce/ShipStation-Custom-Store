@@ -33,6 +33,10 @@ class CSPaginatedList extends PaginatedList
         $page = (int)$request->getVar($this->getPaginationGetVar());
         $length = $this->getPageLength();
 
+        if ($page < 1) {
+            $page = 1;
+        }
+
         $start = $page * $length - $length;
 
         return $start;
