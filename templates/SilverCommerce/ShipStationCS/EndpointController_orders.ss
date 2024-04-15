@@ -4,9 +4,9 @@
   <Order>
     <OrderID>{$ID.CDATA}</OrderID>
     <OrderNumber>{$FullRef.CDATA}</OrderNumber>
-    <OrderDate>{$StartDate.Format('M/d/y H:m')}</OrderDate>
+    <OrderDate>{$StartDate.Format('MM/dd/yyyy H:m')}</OrderDate>
     <OrderStatus>{$Status.CDATA}</OrderStatus>
-    <LastModified>{$LastEdited.Format('M/d/y HH:mm')}</LastModified>
+    <LastModified>{$LastEdited.Format('MM/dd/yyyy HH:mm')}</LastModified>
     <OrderTotal>{$Total.RAW}</OrderTotal>
     <TaxAmount>{$TaxTotal}</TaxAmount>
     <ShippingMethod>{$PostageTitle.CDATA}</ShippingMethod>
