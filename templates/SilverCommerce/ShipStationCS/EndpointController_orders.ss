@@ -4,7 +4,7 @@
   <Order>
     <OrderID>{$ID.CDATA}</OrderID>
     <OrderNumber>{$FullRef.CDATA}</OrderNumber>
-    <OrderDate>{$StartDate.Format('MM/dd/yyyy H:m')}</OrderDate>
+    <OrderDate>{$StartDate.Format('MM/dd/yyyy HH:mm')}</OrderDate>
     <OrderStatus>{$Status.CDATA}</OrderStatus>
     <LastModified>{$LastEdited.Format('MM/dd/yyyy HH:mm')}</LastModified>
     <OrderTotal>{$Total.RAW}</OrderTotal>
