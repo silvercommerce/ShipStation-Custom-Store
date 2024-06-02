@@ -39,7 +39,7 @@
         <SKU>{$StockID.CDATA}</SKU>
         <Name>{$Title.CDATA}</Name>
         <ImageUrl><![CDATA[{$FindStockItem.Images.First.AbsoluteURL}]]></ImageUrl>
-        <Weight>{$Weight}</Weight>
+        <Weight>{$UnitWeight}</Weight>
         <Quantity>{$Quantity}</Quantity>
         <UnitPrice>{$UnitPrice.RAW}</UnitPrice>
         <Options>
