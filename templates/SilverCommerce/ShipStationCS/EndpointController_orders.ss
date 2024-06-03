@@ -33,8 +33,8 @@
       </ShipTo>
     </Customer>
 
-    <% loop $Items %>
     <Items>
+    <% loop $Items %>
       <Item>
         <SKU>{$StockID.CDATA}</SKU>
         <Name>{$Title.CDATA}</Name>
@@ -51,8 +51,8 @@
           <% end_loop %>
         </Options>
       </Item>
-    </Items>
     <% end_loop %>
+    </Items>
   </Order>
   <% end_loop %>
 </Orders>
